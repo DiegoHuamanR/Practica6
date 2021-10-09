@@ -1,0 +1,48 @@
+------------
+INSERT INTO Alumnos VALUES (2019601011,'lenin','aragon torres','Ingenieria de Sistemas' ,'73010704@ucsm.edu.pe',965835846,752145678);
+INSERT INTO Alumnos VALUES (2019205221,'ronald','machaca hilasaca', 'Ingenieria de Sistemas' ,'6664857@ucsm.edu.pe',975666756,71160405);
+INSERT INTO Alumnos VALUES (2016246861,'diego','huaman reynoso', 'Ingenieria de Sistemas' ,'7666957@ucsm.edu.pe',998666023,79566657);
+---
+INSERT INTO Cursos VALUES (1,'DESARROLLO DE APLICACIONES', 1 ,  2 , 3);
+INSERT INTO Cursos VALUES (2,' COMPUTACION EN RED I', 2 , 2, 3);
+INSERT INTO Cursos VALUES (3,'COMPUTACION EN RED II', 1 ,1 , 3);
+INSERT INTO Cursos VALUES (4,'COMPUTACION EN RED III', 1,2 , 3);
+INSERT INTO Cursos VALUES (5,'GESTION DE DATOS E INFORMACION ', 1, 2, 3);
+INSERT INTO Cursos VALUES (6,'SISTEMAS DE INFORMACION ADMINISTRATIVA I', 2, 1, 3);
+INSERT INTO Cursos VALUES (7,'SISTEMAS DE INFORMACION ADMINISTRATIVA II', 2, 2 , 3);
+INSERT INTO Cursos VALUES (8,'ANALISIS Y DISEÑO DE SISTEMAS ', 1,2 , 3);
+INSERT INTO Cursos VALUES (9,'ESTADISTICA Y PROBABILIDADES', 1, 1, 3);
+INSERT INTO Cursos VALUES (10,'ALGORITMOS Y ESTRUCTURA DE DATOS', 2, 2 , 3);
+
+----
+insert into Horarios values ( 1 , 'Mañana' , 'Lunes');
+insert into Horarios values ( 2 , 'Mañana' , 'Martes');
+insert into Horarios values ( 3 , 'Mañana' , 'Miercoles');
+insert into Horarios values ( 4 , 'Mañana' , 'Jueves');
+insert into Horarios values ( 5 , 'Mañana' , 'Viernes');
+insert into Horarios values ( 6 , 'Mañana' , 'Sabado');
+insert into Horarios values ( 11 , 'Tarde' , 'Lunes');
+insert into Horarios values ( 12 , 'Tarde' , 'Martes');
+insert into Horarios values ( 13 , 'Tarde' , 'Miercoles');
+insert into Horarios values ( 14 , 'Tarde' , 'Jueves');
+insert into Horarios values ( 15 , 'Tarde' , 'Viernes');
+insert into Horarios values ( 16 , 'Tarde' , 'Sabado');
+insert into Horarios values ( 21 , 'Noche' , 'Lunes');
+insert into Horarios values ( 22 , 'Noche' , 'Martes');
+insert into Horarios values ( 23 , 'Noche' , 'Miercoles');
+insert into Horarios values ( 24 , 'Noche' , 'Jueves');
+insert into Horarios values ( 25 , 'Noche' , 'Viernes');
+insert into Horarios values ( 26 , 'Noche' , 'Sabado');
+
+
+---
+O Docentes VALUES	(1 , 'Guillermo Enrique Calderón Ruiz' ,  'gcalderon@ucsm.edu.pe' , 15577954 , 'Gestión de Datos e Información');
+INSERT INTO Docentes VALUES	(2 , 'Ángel Montesinos Murillo' ,  'amontesinos@ucsm.edu.pe' , 48147798 ,'Desarrollo de Aplicaciones' );
+INSERT INTO Docentes VALUES	(3 , 'Carlo José Luis Corrales Delgado' ,  'ccorrales@ucsm.edu.pe' , 53263173 , 'Optimización de Operaciones' );
+INSERT INTO Docentes VALUES	(4 , 'José David Esquicha Tejada' ,  'jesquicha@ucsm.edu.pe' , 88851283 , 'Computación en Red' );
+INSERT INTO Docentes VALUES	(5 , 'Mary Victoria Ruelas Llerena' , 'mruelas@ucsm.edu.pe' , 78017605 , 'Fundamentos de Sistemas de Información' );
+INSERT INTO Docentes VALUES	(6 , 'Eveling Gloria Castro Gutierrez' ,  'ecastrog@ucsm.edu.pe' , 72839509 , 'Pensamiento Computacional');
+INSERT INTO Docentes VALUES	(7 , 'José Alfredo Sulla Torres' ,  'jsullato@ucsm.edu.pe' , 16998919 , 'Análisis y Diseño de Sistemas' );
+INSERT INTO Docentes VALUES	(8 , 'Karim Guevara Puente de la Vega' , 'kguevara@ucsm.edu.pe' , 99917008 , 'Algoritmos y Estructura de Datos' );
+INSERT INTO Docentes VALUES	(9 , 'Karina Rosas Paredes' ,  'kparedes@ucsm.edu.pe' , 14347498 ,'Computación en Red ' );
+INSERT INTO Docentes VALUES	(10 , 'Manuel Mariano Zuñiga Carnero' ,  'mzunigac@ucsm.edu.pe' , 66809487 ,'Sistemas de Información Administrativos' );
